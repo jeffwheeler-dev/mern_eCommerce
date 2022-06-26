@@ -1,0 +1,45 @@
+{
+  "name": "budha-head",
+  "version": "1.0.0",
+  "description": "Budha Head eCommerce web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffwheeler-dev/buddha-head.git"
+  },
+  "keywords": [
+    "budha",
+    "head",
+    "marijuana",
+    "oil",
+    "liquid",
+    "disposables",
+    "shop",
+    "deliver",
+    "online",
+    "weed",
+    "bud"
+  ],
+  "author": "Jeff Wheeler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffwheeler-dev/buddha-head/issues"
+  },
+  "homepage": "https://github.com/jeffwheeler-dev/buddha-head#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.2.2",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
+    "stripe": "^9.10.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
